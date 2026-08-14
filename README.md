@@ -109,6 +109,18 @@ If you test these on any tool, listed or not, [a PR with your findings](CONTRIBU
 
 ---
 
+## Use it inside Claude
+
+The same material is packaged as a Claude Skill: [**music-prompt-skill**](https://github.com/musegen/music-prompt-skill). Clone it into your skills directory and Claude writes these prompts for you — no copy-pasting, and it picks the right constraints for your use case automatically.
+
+```bash
+git clone https://github.com/musegen/music-prompt-skill ~/.claude/skills/music-prompt
+```
+
+Same underlying craft, different consumers: this repository is written for people to read and learn from; the skill's references are compressed for a model to look things up in.
+
+---
+
 ## Contributing
 
 New prompts, corrections, tool-specific findings, and translations are all welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).

@@ -113,6 +113,18 @@ Lo-fi, nostalgic, no vocals, 78 BPM, dusty piano loop, vinyl crackle, soft tape 
 
 ---
 
+## 在 Claude 里直接用
+
+同一套内容也打包成了 Claude Skill：[**music-prompt-skill**](https://github.com/musegen/music-prompt-skill)。clone 进 skills 目录，Claude 就会替你写这些提示词，不用来回复制粘贴，而且会自动按你的使用场景选对约束。
+
+```bash
+git clone https://github.com/musegen/music-prompt-skill ~/.claude/skills/music-prompt
+```
+
+同一套手艺，两种读者：这个仓库是写给人看、供人学的；skill 里的 references 则是为模型快速查阅而压缩过的。
+
+---
+
 ## 参与贡献
 
 新提示词、纠错、各工具的实测发现、翻译，都欢迎——详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
