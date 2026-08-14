@@ -72,7 +72,8 @@ Run your prompt at least once before submitting. If it didn't produce what the e
 
 Translations are welcome and are the easiest way to contribute meaningfully.
 
-- Put them in `translations/<lang-code>/`, mirroring the top-level structure
+- **README goes in the repository root** as `README.<lang-code>.md` — e.g. [`README.zh-CN.md`](README.zh-CN.md). That is the GitHub convention and it is where readers look first. Add a language switcher line above the `# ` heading in both files
+- **Everything else goes in `translations/<lang-code>/`**, mirroring the top-level structure
 - **Translate the prose, keep the style tags in English.** Most models are trained predominantly on English music description, and English tags currently produce more reliable results regardless of the target language. Note this in the translated file
 - Partial translations are fine — one file is better than none
 - If you translate `genres.md`, feel free to add genres specific to your language's music culture. That is a real improvement, not scope creep

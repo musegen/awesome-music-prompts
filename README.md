@@ -1,3 +1,5 @@
+**English** · [简体中文](README.zh-CN.md)
+
 # Awesome Music Prompts
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -67,19 +69,22 @@ Keep subject matter (*what the song is about*) out of the style field and in the
 
 Every entry follows the same shape:
 
-> ### Genre — Variant name
->
-> **Style tags**
-> ```
-> Comma-separated fragments that go in the style field
-> ```
->
-> **Description**
-> > What the song is about — goes in the description or lyrics field.
->
-> **Why it works** — the one thing this prompt does that a vague version doesn't.
->
-> `87 chars`
+````markdown
+### Genre — Variant name
+
+**Style tags**
+
+```
+Comma-separated fragments that go in the style field
+```
+
+**Description**
+> What the song is about — goes in the description or lyrics field.
+
+**Why it works** — the one thing this prompt does that a vague version doesn't.
+
+`87 chars`
+````
 
 The character count is there so you can see the headroom before you start editing.
 
